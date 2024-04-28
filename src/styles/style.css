@@ -12,9 +12,9 @@
 .mobile-chrome {
     background: url('../assets/IPhone7.png');
     background-repeat: no-repeat;
-    background-size: 310px 600px;
+    background-size: 380px 600px;
     height: 600px;
-    width: 310px;
+    width: 380px;
     overflow: hidden;
 }
 
@@ -22,7 +22,7 @@
     position: relative;
     top: 70px;
     left: 18px;
-    width: calc(310px - 37px);
+    width: calc(380px - 37px);
     height: calc(600px - 140px);
     border: none;
     border-radius: 5px;

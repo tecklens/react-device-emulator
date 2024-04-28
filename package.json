@@ -22,7 +22,8 @@
     "webpack": "webpack --mode production",
     "copy": "cp -rf src/assets lib && cp -rf src/styles lib",
     "test": "jest --coverage",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "@babel/cli": "^7.20.7",

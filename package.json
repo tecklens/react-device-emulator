@@ -18,7 +18,7 @@
   ],
   "scripts": {
     "start": "webpack-dev-server --hot --mode development",
-    "build": "rm -rf lib && babel ./src/emulator -d lib/emulator && yarn copy",
+    "build": "rimraf lib && babel ./src/emulator -d lib/emulator && yarn copy",
     "webpack": "webpack --mode production",
     "copy": "cp -rf src/assets lib && cp -rf src/styles lib",
     "test": "jest --coverage",
